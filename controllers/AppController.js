@@ -17,7 +17,7 @@ const getStats = (req, res) => {
 
   res.status(200).json({
     "users": nbUsers,
-    "files": nbUsers
+    "files": nbFiles,
   });
 }
 
